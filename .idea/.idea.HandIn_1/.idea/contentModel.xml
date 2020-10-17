@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\ioncr\.nuget\packages\matblazor\2.7.0\contentFiles\any\netstandard2.1\Properties\launchSettings.json" t="Include" />
     <e p="C:\Users\ioncr\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\ioncr\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_HandIn_1.51227513.00" t="ExcludeRecursive" />
     <e p="F:\UNIVERSITY\Semester 3\DNT\HandIn_1" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
       <e p="_Imports.razor" t="Include" />
+      <e p="adults.json" t="Include" />
       <e p="App.razor" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
+      <e p="Authenthication" t="Include">
+        <e p="CustomAuthenticationStateProvider.cs" t="Include" />
+      </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="Data" t="Include">
-        <e p="WeatherForecast.cs" t="Include" />
-        <e p="WeatherForecastService.cs" t="Include" />
+        <e p="AdultService.cs" t="Include" />
+        <e p="IAdultService.cs" t="Include" />
+        <e p="InMemoryUserService.cs" t="Include" />
+        <e p="IUserService.cs" t="Include" />
+        <e p="Persistence" t="Include">
+          <e p="FileContext.cs" t="Include" />
+        </e>
       </e>
+      <e p="families.json" t="Include" />
       <e p="HandIn_1.csproj" t="IncludeRecursive" />
       <e p="HandIn_1.sln" t="IncludeFlat" />
+      <e p="Models" t="Include">
+        <e p="Adult.cs" t="Include" />
+        <e p="Child.cs" t="Include" />
+        <e p="ChildInterest.cs" t="Include" />
+        <e p="Family.cs" t="Include" />
+        <e p="Interest.cs" t="Include" />
+        <e p="Person.cs" t="Include" />
+        <e p="Pet.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">
@@ -26,10 +48,11 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pages" t="Include">
         <e p="_Host.cshtml" t="Include" />
-        <e p="Counter.razor" t="Include" />
+        <e p="AddAdult.razor" t="Include" />
+        <e p="AdultList.razor" t="Include" />
         <e p="Error.cshtml" t="Include" />
-        <e p="FetchData.razor" t="Include" />
         <e p="Index.razor" t="Include" />
+        <e p="Login.razor" t="Include" />
       </e>
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
